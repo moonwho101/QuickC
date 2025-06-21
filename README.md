@@ -1,39 +1,39 @@
 QuickC 2.5 Samples is a curated collection of sample programs originally developed for Microsoft QuickC 2.5, a classic C compiler and IDE for MS-DOS. These examples showcase vintage C programming techniques, including graphics demos, control structures, and low-level system interactions. Ideal for retro computing enthusiasts, students of programming history, or anyone curious about how C was taught and practiced in the early '90s.
 
 
-              SAMPLES.DOC File
+SAMPLES.DOC File
 
-                       QuickC (R) Compiler, Version 2.00
+QuickC (R) Compiler, Version 2.00
 
 ===========================< Samples List >================================
 
 In addition to the reference and "C For Yourself" examples in the QC
 Advisor, the following sample programs are provided with QuickC.
 
-     Files              Description
-     -----              -----------
+   Files              Description
+   -----              -----------
 
-     GRDEMO.MAK         GRDEMO illustrates general graphics techniques
-     GRDEMO.C           including drawing, animation, palette
-     MENU.C             switching, window adjustment, menus, mouse,
-     MENU.H             and turtle graphics. The MENU, MOUSE, and TURTLE
-     MOUSE.C            modules are independent modules that could be
-     MOUSE.H            used in your own programs.
-     TURTLE.C
-     TURTLE.H
+   GRDEMO.MAK         GRDEMO illustrates general graphics techniques
+   GRDEMO.C           including drawing, animation, palette
+   MENU.C             switching, window adjustment, menus, mouse,
+   MENU.H             and turtle graphics. The MENU, MOUSE, and TURTLE
+   MOUSE.C            modules are independent modules that could be
+   MOUSE.H            used in your own programs.
+   TURTLE.C
+   TURTLE.H
 
-     LIFE.MAK           LIFE illustrates general C and inline assembler
-     LIFE.C             techniques. In particular, it shows how to write
-     TOOLS.C            entire screens to the screen buffer. The TOOLS
-     TOOLS.H            module contains independent functions and
-                        macros that could be used in your own programs.
+   LIFE.MAK           LIFE illustrates general C and inline assembler
+   LIFE.C             techniques. In particular, it shows how to write
+   TOOLS.C            entire screens to the screen buffer. The TOOLS
+   TOOLS.H            module contains independent functions and
+                      macros that could be used in your own programs.
 
 
-     CHRTDEMO.MAK       CHRTDEMO illustrates presentation graphics
-     CHRTDEMO.C         techniques. You can use this program as a tool
-     CHRTSUPT.C         for testing different modes and options before
-     CHRTOPT.C          building them into your own programs.
-     CHRTDEMO.H
+   CHRTDEMO.MAK       CHRTDEMO illustrates presentation graphics
+   CHRTDEMO.C         techniques. You can use this program as a tool
+   CHRTSUPT.C         for testing different modes and options before
+   CHRTOPT.C          building them into your own programs.
+   CHRTDEMO.H
 
 ======================< Note on Graphics Libraries >=======================
 
@@ -52,7 +52,7 @@ the Save List button.
 If you are using QCL, specify the library names on the command line.
 For example, use this command line to compile LIFE:
 
-        QCL life.c tools.c graphics.lib
+QCL life.c tools.c graphics.lib
 
 
 ======================< Note on Naming Conventions >=======================
